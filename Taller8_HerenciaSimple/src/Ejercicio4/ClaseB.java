@@ -9,5 +9,7 @@ package Ejercicio4;
  * @author jolvi
  */
 public class ClaseB {
-    
-}
+    public void metodoB(){
+        System.out.println("Metodo de ClaseB");
+    }
+}    
