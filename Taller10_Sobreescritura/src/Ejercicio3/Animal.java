@@ -9,5 +9,7 @@ package Ejercicio3;
  * @author jolvi
  */
 public class Animal {
-    
+    public void hacersonido(){
+        System.out.println("El animal hace sonido.");
+    }
 }

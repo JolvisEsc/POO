@@ -8,10 +8,12 @@ package Ejercicio3;
  *
  * @author jolvi
  */
-public class Coche extends Vehiculo {
-    @Override
-    public void acelerar(){
-    System.out.println("El coche acelera.");
-            
+public abstract class Vehiculo {
+    protected String marca;
+    
+    public Vehiculo(String marca){
+        this.marca = marca;
     }
-}    
+    
+    public abstract void conducir();
+}

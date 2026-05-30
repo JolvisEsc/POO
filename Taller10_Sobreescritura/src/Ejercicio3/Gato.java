@@ -8,6 +8,8 @@ package Ejercicio3;
  *
  * @author jolvi
  */
-public class Gato {
-    
+public class Gato extends Animal {
+    public void hacersondio(){
+        System.out.println("El gato maulla.");
+    }
 }
