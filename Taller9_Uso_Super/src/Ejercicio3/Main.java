@@ -18,7 +18,7 @@ public class Main extends Vehiculo {
         }
         public static void main(String[] arg){
             Main m = new main("Toyota");
-            m.mostrarmarca():
+            m.mostrarmarca();
         }
     }
     
